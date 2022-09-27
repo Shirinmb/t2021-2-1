@@ -1,4 +1,7 @@
 # t2021-2-1
+
+#Program.java -1
+
 import java.util.Scanner;
 
 public class Calci {
@@ -45,3 +48,79 @@ public class Calci {
 	}
 
 }
+
+
+# Program.java--4
+
+
+
+import java.util.*;
+import java.util.HashMap;
+
+class Program
+{
+    private static int value;
+
+    public static void main(String[] args)
+    {
+        ArrayList<Integer> arr=new ArrayList<Integer>(Arrays.asList(1,2,8,9,12,46,76,82,15,20,30));
+        HashMap<Integer,Integer> res =new HashMap();
+
+        for(int i=1;i<=9;i++)
+        {
+            res.put(i,value:0);
+        }
+        for(Integer a:arr)
+        {
+            for(int i=1;i<=9;i++)
+            {
+                if(a%i==0)
+                {
+                    res.put(i,res.get(i)+1);
+                }
+            }
+            System.out.print(res);
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
